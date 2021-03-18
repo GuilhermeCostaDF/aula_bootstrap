@@ -1,0 +1,331 @@
+
+.navbar { 
+    background-color: #dfdfdf;
+}
+
+.quem-somos{
+    background-color: rgb(255, 255, 255);
+}
+
+.quem-somos .margin{
+    padding-top: 50px;
+}
+.quem-somos img{
+    margin-bottom: 20px;
+    transform: scale(1);
+}
+.quem-somos{
+    padding: 30px;
+    
+}
+
+#parceiros{
+    background-color: coral;
+    position: sticky;
+    top:0;
+    z-index: 2;
+   
+}
+
+#parceiros img{
+    
+}
+h3{
+    margin-bottom: 5px;
+}
+
+#servicos h3{
+    margin-bottom: 30px;
+}
+
+#servicos p{
+    text-align: justify;
+}
+
+#servicos {
+    padding: 10px;
+    margin-bottom: 40px;
+}
+.bg-footer{
+    background-color: coral;
+    padding: 5px;
+    color: rgb(219, 219, 219);
+}
+
+.bi-bug, .bg-footer p{
+    pad: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.nossotime{
+    background-color: antiquewhite;
+}
+.nossotime {
+    padding-top: 50px;
+}
+.nossotime h3{
+    margin-bottom: 30px;
+}
+
+.nossotime img{
+    object-fit: cover;
+    position: hidden;
+    
+}
+.nosso-time h3{
+    z-index: 1;
+    position: relative;
+}
+
+.row{
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.col-sm-3{
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    margin: 5px;
+    margin-bottom: 50px;
+    padding: 10px;  
+}
+
+
+
+.col-sm-3 p{
+    text-align: justify;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.col-sm-3 h2{
+    font-size: 120%;
+}
+
+.container-icons {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.bi{
+    cursor: pointer;
+}
+
+.container-news{
+    padding: 5px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+
+.container-news .card{
+    box-shadow: aliceblue;
+}
+.card{
+    overflow: hidden;
+}
+.card img{
+    display: block;
+    position: relative;
+    overflow: hidden;
+    
+  
+}
+
+.card img:hover{
+    
+    transform: scale(1.1);
+    overflow: hidden;
+    transition: transform 0.7s;
+    
+    
+}
+.card:hover{
+     
+    transform: scale(1.08);
+    overflow: hidden;
+    transition: transform 0.3s;
+    
+    
+}
+
+.card h5{
+    overflow: hidden;
+    margin-top: 15px;
+}
+
+.btn-primary {
+    background-color: coral;
+    border: 1px solid coral;
+}
+
+.btn-primary:hover{
+    background-color: rgb(241, 112, 65);
+    border: none;
+}
+
+.card-body p{
+    text-align: justify;
+}
+
+.container-article{
+    margin-top: 40px;
+}
+
+
+
+.containerGrid{
+    justify-content: center;
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: 480px 480px ;
+    grid-template-rows: 40vh 40vh ;
+    grid-template-areas:
+    "card1  card2 " 
+    "card1  card3 ";
+    margin-bottom: 40px;
+}
+
+.containerGrid h1, .containerGrid p{
+    position: relative;
+    color: white;    
+}
+
+.card1{
+    width: 100%;
+    grid-area: card1;
+    overflow: hidden;
+    position: relative;
+}
+
+.card1 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+    transform-origin: 50% 0%;
+    transition: 0.5s;
+}
+
+.card1 img:hover{
+    transform:scale(1.1);
+    transition: 0.5s;
+    z-index: -1;
+    cursor: pointer;
+}
+
+.card1 h1{
+    position: absolute;
+    font-size: 1.6rem;
+    text-align: left;
+    bottom: 40px;
+    left: 10px;
+    font-weight: bold;
+    z-index: 1;
+}
+
+.card1 p{
+    font-weight: bold;
+    font-size: 0.9rem;
+    text-align: left;
+    position: absolute;
+    bottom: 0px;
+    left: 10px;
+    z-index: 1;
+}
+
+
+.card2{
+    width: 100%;
+    grid-area: card2;
+    overflow: hidden;
+    position: relative;
+}
+
+.card2 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+    transform-origin: 80% top;
+    
+    transition: 0.5s;
+    
+}
+
+.card2 img:hover{
+    transform:scale(1.1);
+    transition: 0.5s;
+    z-index: -1;
+    cursor: pointer;
+}
+
+.card2 h1{
+    position: absolute;
+    font-size: 1.2rem;
+    text-align: left;
+    bottom: 30px;
+    left: 10px;
+    z-index: 1;
+}
+
+.card2 p{
+    font-weight: bold;
+    font-size: 0.75rem;
+    text-align: left;
+    position: absolute;
+    bottom: 0px;
+    left: 10px;
+    z-index: 1;
+}
+
+.card3{
+    background-color: chocolate;
+    width: 100%;
+    grid-area: card3;
+    overflow: hidden;
+    position: relative;
+}
+
+.card3 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+    transition: 0.5s;
+}
+
+.card3 img:hover{
+    transform:scale(1.1);
+    transition: 0.5s;
+    z-index: -1;
+    cursor: pointer;
+}
+
+.card3 h1{
+    position: absolute;
+    font-size: 1.2rem;
+    text-align: left;
+    bottom: 50px;
+    left: 10px;
+    font-weight: bold;
+    z-index: 1;
+}
+
+.card3 p{
+    font-weight: bold;
+    font-size: 0.75rem;
+    text-align: left;
+    position: absolute;
+    bottom: 0px;
+    left: 10px;
+    z-index: 1;
+}
